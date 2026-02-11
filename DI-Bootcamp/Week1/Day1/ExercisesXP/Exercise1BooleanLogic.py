@@ -24,3 +24,8 @@ if number < 0:
     print ("That number is less than 0!")
 if number == 0:
     print ("You picked 0!")
+index = "apple"
+print (index.find('l'))
+print ("y" in "xylophone")
+string = "my_string"
+print (string.islower())
