@@ -21,6 +21,4 @@ phrase_list = list(phrase)
 random.shuffle(phrase_list)
 # 3. Join the list back into a single string
 jumbled_phrase = "".join(phrase_list)
-
-print(f"Original: {phrase}")
 print(f"Jumbled:  {jumbled_phrase}")
